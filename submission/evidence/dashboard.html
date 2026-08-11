@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="refresh" content="30">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Day 13 AI Observability</title>
+  <style>
+    :root { color-scheme: dark; font-family: Inter, ui-sans-serif, system-ui, sans-serif; background:#0b1220; color:#e5edf8; }
+    body { margin:0; padding:28px; background:linear-gradient(145deg,#0b1220,#111d33); }
+    main { max-width:1280px; margin:auto; }
+    header { display:flex; justify-content:space-between; gap:18px; align-items:flex-end; margin-bottom:24px; }
+    h1 { margin:0 0 7px; font-size:28px; }
+    h2 { margin:0; font-size:16px; font-weight:650; }
+    .subtitle,.muted { color:#93a4be; font-size:13px; }
+    .window { text-align:right; color:#c4d1e5; font-size:13px; line-height:1.6; }
+    .grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; }
+    .card { min-height:208px; border:1px solid #253653; border-radius:14px; padding:18px; background:#121e32e8; box-shadow:0 10px 28px #05091455; }
+    .card-heading { display:flex; align-items:center; justify-content:space-between; gap:8px; }
+    .status { border-radius:999px; font-size:10px; font-weight:750; letter-spacing:.06em; padding:4px 8px; }
+    .status.ok { background:#123c35; color:#6ee7b7; } .status.breach { background:#4a2029; color:#fda4af; } .status.no_data { background:#333b49; color:#cbd5e1; }
+    .metrics { display:flex; flex-wrap:wrap; gap:10px; margin:20px 0 15px; }
+    .metric { display:flex; flex-direction:column; gap:3px; min-width:83px; }
+    .metric span { color:#93a4be; font-size:11px; } .metric strong { font-size:19px; }
+    .bar-chart { display:flex; align-items:flex-end; gap:2px; height:48px; border-bottom:1px solid #33435e; margin:4px 0 13px; overflow:hidden; }
+    .bar { display:block; flex:1; min-width:2px; background:linear-gradient(#70a7ff,#3974d8); border-radius:2px 2px 0 0; opacity:.86; }
+    .empty-chart { color:#71839d; font-size:12px; height:48px; padding-top:16px; box-sizing:border-box; }
+    .threshold { color:#a9bad2; font-size:11px; } .breakdown { display:flex; flex-wrap:wrap; gap:5px; margin-top:10px; min-height:17px; }
+    .tag { color:#c9d7ea; background:#1d2c45; border-radius:5px; padding:3px 6px; font-size:10px; }
+    footer { color:#71839d; font-size:12px; margin-top:18px; }
+    @media (max-width:900px) { .grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+    @media (max-width:620px) { body { padding:16px; } header { display:block; } .window { text-align:left; margin-top:10px; } .grid { grid-template-columns:1fr; } }
+  </style>
+</head>
+<body>
+<main>
+  <header>
+    <div><h1>Day 13 AI Observability</h1><div class="subtitle">Six-panel AI API observability dashboard · 25 records</div></div>
+    <div class="window"><div><strong>Time range:</strong> last 60 minutes</div><div>2026-08-11T07:42:53.554705Z → 2026-08-11T08:42:53.554705Z</div><div>Auto-refresh: 30s</div></div>
+  </header>
+  <section class="grid">
+            <article class="card">
+              <div class="card-heading">
+                <h2>Latency percentiles</h2>
+                <span class="status ok">OK</span>
+              </div>
+              <div class="metrics"><div class="metric"><span>P50</span><strong>1087 ms</strong></div><div class="metric"><span>P95</span><strong>1154 ms</strong></div><div class="metric"><span>P99</span><strong>1154 ms</strong></div></div>
+              <div class="bar-chart" aria-label="Metric trend"><span class="bar" style="height:100%" title="1154 ms"></span></div>
+              <div class="threshold">Threshold: p95 ≤ 3000 ms</div>
+              <div class="breakdown"></div>
+            </article>
+            
+            <article class="card">
+              <div class="card-heading">
+                <h2>Request traffic</h2>
+                <span class="status breach">BREACH</span>
+              </div>
+              <div class="metrics"><div class="metric"><span>Requests</span><strong>10 requests</strong></div><div class="metric"><span>Rate</span><strong>0.1667 req/min</strong></div></div>
+              <div class="bar-chart" aria-label="Metric trend"><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:100%" title="10 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span><span class="bar" style="height:4%" title="0 requests"></span></div>
+              <div class="threshold">Threshold: rate_per_minute ≥ 1 req/min</div>
+              <div class="breakdown"></div>
+            </article>
+            
+            <article class="card">
+              <div class="card-heading">
+                <h2>Error rate and breakdown</h2>
+                <span class="status ok">OK</span>
+              </div>
+              <div class="metrics"><div class="metric"><span>Error rate</span><strong>0%</strong></div><div class="metric"><span>Failed</span><strong>0 requests</strong></div><div class="metric"><span>Requests</span><strong>10 requests</strong></div></div>
+              <div class="bar-chart" aria-label="Metric trend"><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span><span class="bar" style="height:4%" title="0%"></span></div>
+              <div class="threshold">Threshold: error_rate_pct ≤ 2%</div>
+              <div class="breakdown"><span class="muted">No failures</span></div>
+            </article>
+            
+            <article class="card">
+              <div class="card-heading">
+                <h2>Cost over time</h2>
+                <span class="status ok">OK</span>
+              </div>
+              <div class="metrics"><div class="metric"><span>Window total</span><strong>0.0215 USD</strong></div><div class="metric"><span>Avg / response</span><strong>0.0021 USD</strong></div></div>
+              <div class="bar-chart" aria-label="Metric trend"><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0.0215 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span><span class="bar" style="height:4%" title="0 USD"></span></div>
+              <div class="threshold">Threshold: total ≤ 2.5 USD</div>
+              <div class="breakdown"></div>
+            </article>
+            
+            <article class="card">
+              <div class="card-heading">
+                <h2>Input and output tokens</h2>
+                <span class="status ok">OK</span>
+              </div>
+              <div class="metrics"><div class="metric"><span>Input</span><strong>330 tokens</strong></div><div class="metric"><span>Output</span><strong>1365 tokens</strong></div><div class="metric"><span>Total</span><strong>1695 tokens</strong></div></div>
+              <div class="bar-chart" aria-label="Metric trend"><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:100%" title="1365 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span><span class="bar" style="height:4%" title="0 tokens"></span></div>
+              <div class="threshold">Threshold: sum_by_field ≤ 50000 tokens</div>
+              <div class="breakdown"></div>
+            </article>
+            
+            <article class="card">
+              <div class="card-heading">
+                <h2>Quality proxy</h2>
+                <span class="status ok">OK</span>
+              </div>
+              <div class="metrics"><div class="metric"><span>Mean score</span><strong>0.88 / 1.0</strong></div></div>
+              <div class="bar-chart" aria-label="Metric trend"><span class="bar" style="height:88%" title="0.88 / 1.0"></span></div>
+              <div class="threshold">Threshold: mean ≥ 0.75 / 1.0</div>
+              <div class="breakdown"></div>
+            </article>
+            </section>
+  <footer>Source: data/logs.jsonl · Thresholds and units are read from config/dashboard.yaml</footer>
+</main>
+</body>
+</html>

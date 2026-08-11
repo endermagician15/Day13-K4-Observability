@@ -31,6 +31,21 @@ python scripts/validate_dashboard.py
 
 Validator kiểm tra cấu trúc contract; nó không thể chứng minh biểu đồ trong ảnh dùng đúng dữ liệu. Evidence runtime vẫn bắt buộc.
 
+## Dashboard runtime trong repository
+
+Repository có renderer HTML không cần dịch vụ ngoài. Renderer dùng cùng phép tính
+với API metrics và đọc threshold/đơn vị từ contract:
+
+```bash
+python scripts/render_dashboard.py --output dashboard.html
+```
+
+Mở `dashboard.html` bằng trình duyệt để xem sáu panel Latency, Traffic, Errors,
+Cost, Tokens và Quality. Màn hình hiển thị cửa sổ 60 phút, tự refresh 30 giây,
+đơn vị, threshold và trạng thái `OK`/`BREACH`/`NO DATA`. Khi cần chụp evidence,
+dùng `--output submission/evidence/dashboard.html` hoặc mở file bằng trình duyệt
+rồi chụp toàn bộ phần header và sáu panel.
+
 ## Cách kiểm tra runtime
 
 1. Lưu ảnh baseline và giá trị P95/error/cost hiện tại.
