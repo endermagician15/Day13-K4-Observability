@@ -4,7 +4,7 @@
 
 - Tên nhóm: A1
 - Repository URL: [Github](https://github.com/endermagician15/Day13-K4-Observability)
-- Commit SHA cuối: d486c0736f9b9b706a0ce8e9fb7b6e9b25747591
+- Commit SHA cuối: 86b1dcb1cee63718cb16cb911f081b035541baee
 - Thành viên và vai trò:
 
 | STT | Thành viên | MSSV | Vai trò phụ trách |
