@@ -2,22 +2,29 @@
 
 ## 1. Thông tin nhóm
 
-- Tên nhóm:
-- Repository URL:
-- Commit SHA cuối:
+- Tên nhóm: A1
+- Repository URL: [Github](https://github.com/endermagician15/Day13-K4-Observability)
+- Commit SHA cuối: 
 - Thành viên và vai trò:
+
+| STT | Thành viên | MSSV | Vai trò phụ trách |
+|---|---|---|---|
+| 1 | Nguyễn Minh Hiếu | 2A202601816 | Logging & PII |
+| 2 | Nguyễn Văn Đức | 2A202601422 | Tracing & Prompt Version |
+| 3 | Đào Hải Đăng | 2A202601814 | Dashboard, SLO & Alerts |
+| 4 | Vũ Xuân Đức | 2A202601668 | Incident, Report & Demo |
 
 ## 2. Kết quả kỹ thuật
 
-- Điểm `validate_logs.py`:
+- Điểm `validate_logs.py`: 100/100 (4/4 tiêu chí PASSED)
 - Tổng số traces:
-- Số PII leak còn lại:
+- Số PII leak còn lại: 0
 - Link/đường dẫn dashboard:
 
 ## 3. Logging và tracing
 
-- Evidence correlation ID:
-- Evidence PII redaction:
+- Evidence correlation ID: ![Correlation ID](evidence/corr_id.png)
+- Evidence PII redaction: ![PII Redaction](evidence/REDACTED.png)
 - Evidence trace waterfall:
 - Giải thích một span đáng chú ý:
 
@@ -52,4 +59,7 @@ Với mỗi thành viên, ghi rõ nhiệm vụ và link commit/PR tương ứng.
 
 | Thành viên | Phần việc | Commit/PR | Điều đã học |
 |---|---|---|---|
-| | | | |
+| Nguyễn Minh Hiếu (2A202601816) | **Logging & PII:** Triển khai Middleware tự động khởi tạo và lan truyền `correlation_id`, bổ sung log context enrichment (`user_id_hash`, `session_id`, `feature`, `model`, `env`), xây dựng structlog processor đệ quy lọc khử dữ liệu PII nhạy cảm (Email, SĐT, CCCD, Thẻ credit, Passport). Đạt 100/100 điểm `validate_logs.py`. | [Commit / PR](#) | Hiểu rõ kiến trúc Structlog Processors Pipeline, cơ chế lan truyền Correlation ID qua ContextVars giữa các HTTP Request, và giải thuật đệ quy khử PII bảo vệ an toàn dữ liệu người dùng. |
+| Nguyễn Văn Đức (2A202601422) | Tracing & Prompt Version | | |
+| Đào Hải Đăng (2A202601814) | Dashboard, SLO & Alerts | | |
+| Vũ Xuân Đức (2A202601668) | Incident, Report & Demo | | |
