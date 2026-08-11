@@ -16,7 +16,7 @@
 
 ## 2. Kết quả kỹ thuật
 
-- Điểm `validate_logs.py`: 100/100 (4/4 tiêu chí PASSED)
+- Điểm `validate_logs.py`: 100/100
 - Tổng số traces:
 - Số PII leak còn lại: 0
 - Link/đường dẫn dashboard:
