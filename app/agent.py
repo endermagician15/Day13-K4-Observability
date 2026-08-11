@@ -19,6 +19,8 @@ class AgentResult:
     tokens_out: int
     cost_usd: float
     quality_score: float
+    trace_id: str | None = None
+    trace_url: str | None = None
 
 
 class LabAgent:
@@ -72,6 +74,11 @@ class LabAgent:
             cost_details={"total": cost_usd},
             prompt=prompt.managed_prompt,
         )
+        if hasattr(langfuse_client, "flush"):
+            try:
+                langfuse_client.flush()
+            except Exception:
+                pass
 
         metrics.record_request(
             latency_ms=latency_ms,
@@ -81,6 +88,19 @@ class LabAgent:
             quality_score=quality_score,
         )
 
+        trace_id = None
+        trace_url = None
+        if hasattr(langfuse_client, "get_current_trace_id"):
+            try:
+                trace_id = langfuse_client.get_current_trace_id()
+            except Exception:
+                pass
+        if hasattr(langfuse_client, "get_trace_url"):
+            try:
+                trace_url = langfuse_client.get_trace_url()
+            except Exception:
+                pass
+
         return AgentResult(
             answer=response.text,
             latency_ms=latency_ms,
@@ -88,6 +108,8 @@ class LabAgent:
             tokens_out=response.usage.output_tokens,
             cost_usd=cost_usd,
             quality_score=quality_score,
+            trace_id=trace_id,
+            trace_url=trace_url,
         )
 
     def _estimate_cost(self, tokens_in: int, tokens_out: int) -> float:

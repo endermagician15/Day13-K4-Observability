@@ -1,0 +1,1756 @@
+[
+  {
+    "id": "e4fac5819b542c9beeb780252d437d4e",
+    "name": "run",
+    "user_id": "6b83e74c0874",
+    "session_id": "k4-challenge-s04",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "monitoring"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse",
+      "doc_count": 1,
+      "query_preview": "Which signal should be checked after latency increases?",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "f8655b27-b6c9-440d-b0d2-a9178a29cb4a",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 3.573,
+    "timestamp": "2026-08-11 08:36:48.049000+00:00"
+  },
+  {
+    "id": "795d85c2d40dce2bfb9910c0d2ee7de8",
+    "name": "run",
+    "user_id": "cbc3dffc63cf",
+    "session_id": "k4-challenge-s03",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "monitoring"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse",
+      "doc_count": 1,
+      "query_preview": "Summarize the observability workflow for an AI API.",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "f8655b27-b6c9-440d-b0d2-a9178a29cb4a",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 3.161,
+    "timestamp": "2026-08-11 08:36:44.884000+00:00"
+  },
+  {
+    "id": "156db68739b5e36f372bb04f775ccebf",
+    "name": "run",
+    "user_id": "cb22af258a5e",
+    "session_id": "k4-challenge-s02",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "monitoring"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse",
+      "doc_count": 1,
+      "query_preview": "How should an engineer investigate tail latency?",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "f8655b27-b6c9-440d-b0d2-a9178a29cb4a",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 3.202,
+    "timestamp": "2026-08-11 08:36:41.677000+00:00"
+  },
+  {
+    "id": "dce1a7a8a53bde42e9f4f2c8a2489d55",
+    "name": "run",
+    "user_id": "0c04335fe098",
+    "session_id": "k4-challenge-s05",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "monitoring"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse",
+      "doc_count": 1,
+      "query_preview": "Describe how to prove a slow span is the root cause.",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "f8655b27-b6c9-440d-b0d2-a9178a29cb4a",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 3.17,
+    "timestamp": "2026-08-11 08:36:38.504000+00:00"
+  },
+  {
+    "id": "f2fa105729594bf8016090ea11c75b21",
+    "name": "run",
+    "user_id": "f00ba60b3772",
+    "session_id": "k4-challenge-s01",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "monitoring"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse",
+      "doc_count": 1,
+      "query_preview": "Explain why metrics traces and logs work together.",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "f8655b27-b6c9-440d-b0d2-a9178a29cb4a",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 3.619,
+    "timestamp": "2026-08-11 08:36:34.881000+00:00"
+  },
+  {
+    "id": "788dab8800f40e76db7d63b903e33f17",
+    "name": "run",
+    "user_id": "105a9cef3903",
+    "session_id": "s10",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse",
+      "doc_count": 1,
+      "query_preview": "How should alerts be designed?",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "f8655b27-b6c9-440d-b0d2-a9178a29cb4a",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 0.645,
+    "timestamp": "2026-08-11 08:35:54.340000+00:00"
+  },
+  {
+    "id": "6b44985cbbcc1654c3e9deda13992ab7",
+    "name": "run",
+    "user_id": "4d14d5d4f719",
+    "session_id": "s09",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse",
+      "doc_count": 1,
+      "query_preview": "What is the policy for PII and credit card [REDACTED_CREDIT_CARD]?",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "f8655b27-b6c9-440d-b0d2-a9178a29cb4a",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 0.661,
+    "timestamp": "2026-08-11 08:35:53.674000+00:00"
+  },
+  {
+    "id": "29667ac29443c8e7542f1d039fdf81dc",
+    "name": "run",
+    "user_id": "2f015d970c0b",
+    "session_id": "s08",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse",
+      "doc_count": 1,
+      "query_preview": "How do I debug tail latency?",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "f8655b27-b6c9-440d-b0d2-a9178a29cb4a",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 0.779,
+    "timestamp": "2026-08-11 08:35:52.891000+00:00"
+  },
+  {
+    "id": "c31985153fdd5672c4afa72fa4ac4be6",
+    "name": "run",
+    "user_id": "1632c29ecdec",
+    "session_id": "s07",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse",
+      "doc_count": 1,
+      "query_preview": "What should not appear in app logs?",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "f8655b27-b6c9-440d-b0d2-a9178a29cb4a",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 0.644,
+    "timestamp": "2026-08-11 08:35:52.241000+00:00"
+  },
+  {
+    "id": "86ab8c47ee2f2d5bd8b90dd394b98be9",
+    "name": "run",
+    "user_id": "4c4f62330d76",
+    "session_id": "s06",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "summary"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse",
+      "doc_count": 1,
+      "query_preview": "Give me a short summary of the observability workflow",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "f8655b27-b6c9-440d-b0d2-a9178a29cb4a",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 0.668,
+    "timestamp": "2026-08-11 08:35:51.566000+00:00"
+  },
+  {
+    "id": "77fffa0fcb3944f935bb79753e8ec123",
+    "name": "run",
+    "user_id": "64f6ec689229",
+    "session_id": "s05",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse",
+      "doc_count": 1,
+      "query_preview": "Here is my phone [REDACTED_PHONE_VN], what should be logged?",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "f8655b27-b6c9-440d-b0d2-a9178a29cb4a",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 0.652,
+    "timestamp": "2026-08-11 08:35:50.908000+00:00"
+  },
+  {
+    "id": "9fe72ca2f1775899d473680d89451e77",
+    "name": "run",
+    "user_id": "75af07890985",
+    "session_id": "s04",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse",
+      "doc_count": 1,
+      "query_preview": "Can I get help with policy and monitoring?",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "f8655b27-b6c9-440d-b0d2-a9178a29cb4a",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 0.712,
+    "timestamp": "2026-08-11 08:35:50.189000+00:00"
+  },
+  {
+    "id": "415e45bd19b87546149df6eee33bb5db",
+    "name": "run",
+    "user_id": "97ce842ec69d",
+    "session_id": "s03",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "summary"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse",
+      "doc_count": 1,
+      "query_preview": "Summarize the monitoring policy for production logging",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "f8655b27-b6c9-440d-b0d2-a9178a29cb4a",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 0.677,
+    "timestamp": "2026-08-11 08:35:49.508000+00:00"
+  },
+  {
+    "id": "cd91bc6b83404c41b9540e738e4de5ab",
+    "name": "run",
+    "user_id": "95b6504a8bd6",
+    "session_id": "s02",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse",
+      "doc_count": 1,
+      "query_preview": "Explain why metrics traces and logs work together",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "f8655b27-b6c9-440d-b0d2-a9178a29cb4a",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 0.708,
+    "timestamp": "2026-08-11 08:35:48.796000+00:00"
+  },
+  {
+    "id": "d4fdfba026e1be341cfc9b9ed7e9c9cb",
+    "name": "run",
+    "user_id": "2055254ee30a",
+    "session_id": "s01",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse",
+      "doc_count": 1,
+      "query_preview": "What is your refund policy? My email is [REDACTED_EMAIL]",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "f8655b27-b6c9-440d-b0d2-a9178a29cb4a",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 2.372,
+    "timestamp": "2026-08-11 08:35:46.416000+00:00"
+  },
+  {
+    "id": "2fb7baec439f129348242f4e391495b1",
+    "name": "run",
+    "user_id": "12c5dc859676",
+    "session_id": "session-prod-rollback-v1",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse",
+      "doc_count": 1,
+      "query_preview": "What is the refund policy?",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "08f03037-e71b-46ab-834c-85fcda6d58b8",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.462,
+    "timestamp": "2026-08-11 08:34:50.793000+00:00"
+  },
+  {
+    "id": "a4c0545bcbf2139c339c845e2c48969a",
+    "name": "run",
+    "user_id": "fc4c86f7b11c",
+    "session_id": "session-prod-v2",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 2,
+      "prompt_source": "langfuse",
+      "doc_count": 1,
+      "query_preview": "What is the refund policy?",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "08f03037-e71b-46ab-834c-85fcda6d58b8",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.179,
+    "timestamp": "2026-08-11 08:34:48.268000+00:00"
+  },
+  {
+    "id": "effb2e1ee16b5b2c1eac6b80247f1e39",
+    "name": "run",
+    "user_id": "49a04a541b83",
+    "session_id": "session-v2-candidate",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "candidate",
+      "prompt_version": 2,
+      "prompt_source": "langfuse",
+      "doc_count": 1,
+      "query_preview": "What is the refund policy?",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "08f03037-e71b-46ab-834c-85fcda6d58b8",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.582,
+    "timestamp": "2026-08-11 08:34:46.146000+00:00"
+  },
+  {
+    "id": "5b571bf0f646490be350064cd2f64c54",
+    "name": "run",
+    "user_id": "d78f849bff2c",
+    "session_id": "session-v1-baseline",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "baseline",
+      "prompt_version": 1,
+      "prompt_source": "langfuse",
+      "doc_count": 1,
+      "query_preview": "What is the refund policy?",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "08f03037-e71b-46ab-834c-85fcda6d58b8",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 2.322,
+    "timestamp": "2026-08-11 08:34:43.577000+00:00"
+  },
+  {
+    "id": "4d19881879194ecd3ba4f7fca0a1e284",
+    "name": "test_fn",
+    "user_id": null,
+    "session_id": null,
+    "tags": [],
+    "metadata": {
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "3a2f71d8-c637-484b-9352-9f2cbd0d262d",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 0.0,
+    "timestamp": "2026-08-11 08:34:03.275000+00:00"
+  },
+  {
+    "id": "d53f7c1a2c7b8f58a3c27551cea393a5",
+    "name": "run",
+    "user_id": "12c5dc859676",
+    "session_id": "session-prod-rollback-v1",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse",
+      "doc_count": 1,
+      "query_preview": "What is the refund policy?",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "2c1e0164-1bd0-442e-9a3e-87c6802ae86b",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 0.65,
+    "timestamp": "2026-08-11 08:33:48.970000+00:00"
+  },
+  {
+    "id": "19e9c8ca98d40fe38fd228dfc85bbc5e",
+    "name": "run",
+    "user_id": "1bfc6864893c",
+    "session_id": "session-prod-v2",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 2,
+      "prompt_source": "langfuse",
+      "doc_count": 1,
+      "query_preview": "What is the refund policy?",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "2c1e0164-1bd0-442e-9a3e-87c6802ae86b",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 0.668,
+    "timestamp": "2026-08-11 08:33:43.443000+00:00"
+  },
+  {
+    "id": "c424f950b1632794431631d6938cd8ff",
+    "name": "run",
+    "user_id": "437cc087ba9d",
+    "session_id": "session-v2-candidate",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "candidate",
+      "prompt_version": 2,
+      "prompt_source": "langfuse",
+      "doc_count": 1,
+      "query_preview": "What is the refund policy?",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "2c1e0164-1bd0-442e-9a3e-87c6802ae86b",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 0.645,
+    "timestamp": "2026-08-11 08:33:37.890000+00:00"
+  },
+  {
+    "id": "df2f0c0053660f8597c4762a35ccf701",
+    "name": "run",
+    "user_id": "96da0107be71",
+    "session_id": "session-v1-baseline",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "baseline",
+      "prompt_version": 1,
+      "prompt_source": "langfuse",
+      "doc_count": 1,
+      "query_preview": "What is the refund policy?",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "2c1e0164-1bd0-442e-9a3e-87c6802ae86b",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.684,
+    "timestamp": "2026-08-11 08:33:32.066000+00:00"
+  },
+  {
+    "id": "29f7ee7eae0e50c8ce5e61110549d0d1",
+    "name": "run",
+    "user_id": "2a2006df8771",
+    "session_id": "session-01",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": 1,
+      "prompt_source": "langfuse",
+      "doc_count": 1,
+      "query_preview": "What is the refund policy?",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "71414cc4-0226-4ade-b041-3dfcb16f8ed3",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.643,
+    "timestamp": "2026-08-11 08:32:34.085000+00:00"
+  },
+  {
+    "id": "c12eac124c868612daae88e411efaa59",
+    "name": "agent_run",
+    "user_id": null,
+    "session_id": null,
+    "tags": [],
+    "metadata": {
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "24f9d40b-22b7-4c16-a244-7dc610a269c3",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 0.001,
+    "timestamp": "2026-08-11 08:24:44.524000+00:00"
+  },
+  {
+    "id": "6781ab394ae6cdcad3f98c860e9eecbf",
+    "name": "run",
+    "user_id": "105a9cef3903",
+    "session_id": "s10",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback",
+      "doc_count": 1,
+      "query_preview": "How should alerts be designed?",
+      "prompt_fetch_error": "LangfuseFallback",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "e5642fea-bac7-487d-82d9-39164099cc03",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.418,
+    "timestamp": "2026-08-11 08:20:36.298000+00:00"
+  },
+  {
+    "id": "ad1cec39487a0a305b154279cf063e3d",
+    "name": "run",
+    "user_id": "4d14d5d4f719",
+    "session_id": "s09",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback",
+      "doc_count": 1,
+      "query_preview": "What is the policy for PII and credit card [REDACTED_CREDIT_CARD]?",
+      "prompt_fetch_error": "LangfuseFallback",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "e5642fea-bac7-487d-82d9-39164099cc03",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.076,
+    "timestamp": "2026-08-11 08:20:35.215000+00:00"
+  },
+  {
+    "id": "d2ffefc7d6f10e60410df29415b35f4a",
+    "name": "run",
+    "user_id": "2f015d970c0b",
+    "session_id": "s08",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback",
+      "doc_count": 1,
+      "query_preview": "How do I debug tail latency?",
+      "prompt_fetch_error": "LangfuseFallback",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "e5642fea-bac7-487d-82d9-39164099cc03",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.287,
+    "timestamp": "2026-08-11 08:20:33.922000+00:00"
+  },
+  {
+    "id": "a960a505bcafa715c08b669ed02bed73",
+    "name": "run",
+    "user_id": "1632c29ecdec",
+    "session_id": "s07",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback",
+      "doc_count": 1,
+      "query_preview": "What should not appear in app logs?",
+      "prompt_fetch_error": "LangfuseFallback",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "e5642fea-bac7-487d-82d9-39164099cc03",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.217,
+    "timestamp": "2026-08-11 08:20:32.696000+00:00"
+  },
+  {
+    "id": "d55d8cb7db4ec52a178b7b78b8772eed",
+    "name": "run",
+    "user_id": "4c4f62330d76",
+    "session_id": "s06",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "summary"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback",
+      "doc_count": 1,
+      "query_preview": "Give me a short summary of the observability workflow",
+      "prompt_fetch_error": "LangfuseFallback",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "e5642fea-bac7-487d-82d9-39164099cc03",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.201,
+    "timestamp": "2026-08-11 08:20:31.487000+00:00"
+  },
+  {
+    "id": "efe16785f1621bd135989486d4befca6",
+    "name": "run",
+    "user_id": "64f6ec689229",
+    "session_id": "s05",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback",
+      "doc_count": 1,
+      "query_preview": "Here is my phone [REDACTED_PHONE_VN], what should be logged?",
+      "prompt_fetch_error": "LangfuseFallback",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "e5642fea-bac7-487d-82d9-39164099cc03",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.067,
+    "timestamp": "2026-08-11 08:20:30.413000+00:00"
+  },
+  {
+    "id": "5fe7438bc499f2a9abc490dfa4aef47d",
+    "name": "run",
+    "user_id": "75af07890985",
+    "session_id": "s04",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback",
+      "doc_count": 1,
+      "query_preview": "Can I get help with policy and monitoring?",
+      "prompt_fetch_error": "LangfuseFallback",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "e5642fea-bac7-487d-82d9-39164099cc03",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.042,
+    "timestamp": "2026-08-11 08:20:29.365000+00:00"
+  },
+  {
+    "id": "08d6af7e5cc797b5e310007f36656997",
+    "name": "run",
+    "user_id": "97ce842ec69d",
+    "session_id": "s03",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "summary"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback",
+      "doc_count": 1,
+      "query_preview": "Summarize the monitoring policy for production logging",
+      "prompt_fetch_error": "LangfuseFallback",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "e5642fea-bac7-487d-82d9-39164099cc03",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.043,
+    "timestamp": "2026-08-11 08:20:28.315000+00:00"
+  },
+  {
+    "id": "a6b8c32c88ac52a8b16d632854870e1e",
+    "name": "run",
+    "user_id": "95b6504a8bd6",
+    "session_id": "s02",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback",
+      "doc_count": 1,
+      "query_preview": "Explain why metrics traces and logs work together",
+      "prompt_fetch_error": "LangfuseFallback",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "e5642fea-bac7-487d-82d9-39164099cc03",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.212,
+    "timestamp": "2026-08-11 08:20:27.097000+00:00"
+  },
+  {
+    "id": "f0fd6c5d8609c548b064a64cfe1bf356",
+    "name": "run",
+    "user_id": "2055254ee30a",
+    "session_id": "s01",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback",
+      "doc_count": 1,
+      "query_preview": "What is your refund policy? My email is [REDACTED_EMAIL]",
+      "prompt_fetch_error": "LangfuseFallback",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "e5642fea-bac7-487d-82d9-39164099cc03",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.246,
+    "timestamp": "2026-08-11 08:20:25.843000+00:00"
+  },
+  {
+    "id": "97a27753cdd5973a2b7b24c11a9d01eb",
+    "name": "run",
+    "user_id": "105a9cef3903",
+    "session_id": "s10",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback",
+      "doc_count": 1,
+      "query_preview": "How should alerts be designed?",
+      "prompt_fetch_error": "LangfuseFallback",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "e5642fea-bac7-487d-82d9-39164099cc03",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.364,
+    "timestamp": "2026-08-11 07:52:42.601000+00:00"
+  },
+  {
+    "id": "09ead46ba126a3739a91a30600f606a7",
+    "name": "run",
+    "user_id": "4d14d5d4f719",
+    "session_id": "s09",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback",
+      "doc_count": 1,
+      "query_preview": "What is the policy for PII and credit card [REDACTED_CREDIT_CARD]?",
+      "prompt_fetch_error": "LangfuseFallback",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "e5642fea-bac7-487d-82d9-39164099cc03",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.308,
+    "timestamp": "2026-08-11 07:52:41.286000+00:00"
+  },
+  {
+    "id": "a18223ec6f21c57660202f52d068d900",
+    "name": "run",
+    "user_id": "2f015d970c0b",
+    "session_id": "s08",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback",
+      "doc_count": 1,
+      "query_preview": "How do I debug tail latency?",
+      "prompt_fetch_error": "LangfuseFallback",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "e5642fea-bac7-487d-82d9-39164099cc03",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.126,
+    "timestamp": "2026-08-11 07:52:40.154000+00:00"
+  },
+  {
+    "id": "e2444bdaa50aa073a3faf2d25ad12feb",
+    "name": "run",
+    "user_id": "1632c29ecdec",
+    "session_id": "s07",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback",
+      "doc_count": 1,
+      "query_preview": "What should not appear in app logs?",
+      "prompt_fetch_error": "LangfuseFallback",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "e5642fea-bac7-487d-82d9-39164099cc03",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.779,
+    "timestamp": "2026-08-11 07:52:38.367000+00:00"
+  },
+  {
+    "id": "0abb49e709967496e1c03b991c70ddd0",
+    "name": "run",
+    "user_id": "4c4f62330d76",
+    "session_id": "s06",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "summary"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback",
+      "doc_count": 1,
+      "query_preview": "Give me a short summary of the observability workflow",
+      "prompt_fetch_error": "LangfuseFallback",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "e5642fea-bac7-487d-82d9-39164099cc03",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.291,
+    "timestamp": "2026-08-11 07:52:37.069000+00:00"
+  },
+  {
+    "id": "9651ba74ac5d5208bebe2376cb2de3d6",
+    "name": "run",
+    "user_id": "64f6ec689229",
+    "session_id": "s05",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback",
+      "doc_count": 1,
+      "query_preview": "Here is my phone [REDACTED_PHONE_VN], what should be logged?",
+      "prompt_fetch_error": "LangfuseFallback",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "e5642fea-bac7-487d-82d9-39164099cc03",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.58,
+    "timestamp": "2026-08-11 07:52:35.482000+00:00"
+  },
+  {
+    "id": "0ee6e0cd307b7d7866f7f80789c03573",
+    "name": "run",
+    "user_id": "75af07890985",
+    "session_id": "s04",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback",
+      "doc_count": 1,
+      "query_preview": "Can I get help with policy and monitoring?",
+      "prompt_fetch_error": "LangfuseFallback",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "e5642fea-bac7-487d-82d9-39164099cc03",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 2.483,
+    "timestamp": "2026-08-11 07:52:32.994000+00:00"
+  },
+  {
+    "id": "ea58a7fe81b6bed5535e384c31b67d72",
+    "name": "run",
+    "user_id": "97ce842ec69d",
+    "session_id": "s03",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "summary"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback",
+      "doc_count": 1,
+      "query_preview": "Summarize the monitoring policy for production logging",
+      "prompt_fetch_error": "LangfuseFallback",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "e5642fea-bac7-487d-82d9-39164099cc03",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.235,
+    "timestamp": "2026-08-11 07:52:31.751000+00:00"
+  },
+  {
+    "id": "c57f58b4439671af748b07c14a317d96",
+    "name": "run",
+    "user_id": "95b6504a8bd6",
+    "session_id": "s02",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback",
+      "doc_count": 1,
+      "query_preview": "Explain why metrics traces and logs work together",
+      "prompt_fetch_error": "LangfuseFallback",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "e5642fea-bac7-487d-82d9-39164099cc03",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.795,
+    "timestamp": "2026-08-11 07:52:29.948000+00:00"
+  },
+  {
+    "id": "7db9c0819ce931036eccbe641765c2ae",
+    "name": "run",
+    "user_id": "2055254ee30a",
+    "session_id": "s01",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback",
+      "doc_count": 1,
+      "query_preview": "What is your refund policy? My email is [REDACTED_EMAIL]",
+      "prompt_fetch_error": "LangfuseFallback",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "e5642fea-bac7-487d-82d9-39164099cc03",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.304,
+    "timestamp": "2026-08-11 07:52:28.637000+00:00"
+  },
+  {
+    "id": "16f8b91afd1b6b74434162f68eddd27e",
+    "name": "run",
+    "user_id": "105a9cef3903",
+    "session_id": "s10",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback",
+      "doc_count": 1,
+      "query_preview": "How should alerts be designed?",
+      "prompt_fetch_error": "LangfuseFallback",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "e5642fea-bac7-487d-82d9-39164099cc03",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 3.534,
+    "timestamp": "2026-08-11 07:51:05.766000+00:00"
+  },
+  {
+    "id": "fff8ebf88f9aa8689036eb7092946351",
+    "name": "run",
+    "user_id": "4d14d5d4f719",
+    "session_id": "s09",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback",
+      "doc_count": 1,
+      "query_preview": "What is the policy for PII and credit card [REDACTED_CREDIT_CARD]?",
+      "prompt_fetch_error": "LangfuseFallback",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "e5642fea-bac7-487d-82d9-39164099cc03",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.634,
+    "timestamp": "2026-08-11 07:51:04.124000+00:00"
+  },
+  {
+    "id": "42d1105b7bb1f383f1f91f4cc6b8d86a",
+    "name": "run",
+    "user_id": "2f015d970c0b",
+    "session_id": "s08",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback",
+      "doc_count": 1,
+      "query_preview": "How do I debug tail latency?",
+      "prompt_fetch_error": "LangfuseFallback",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "e5642fea-bac7-487d-82d9-39164099cc03",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.767,
+    "timestamp": "2026-08-11 07:51:02.351000+00:00"
+  },
+  {
+    "id": "a929ae9989a213d3c317a180f9c77a3f",
+    "name": "run",
+    "user_id": "1632c29ecdec",
+    "session_id": "s07",
+    "tags": [
+      "claude-sonnet-4-5",
+      "lab",
+      "qa"
+    ],
+    "metadata": {
+      "prompt_name": "day13-chat",
+      "prompt_label": "production",
+      "prompt_version": "local-v1",
+      "prompt_source": "local-fallback",
+      "doc_count": 1,
+      "query_preview": "What should not appear in app logs?",
+      "prompt_fetch_error": "LangfuseFallback",
+      "resourceAttributes": {
+        "telemetry.sdk.language": "python",
+        "telemetry.sdk.name": "opentelemetry",
+        "telemetry.sdk.version": "1.44.0",
+        "service.instance.id": "e5642fea-bac7-487d-82d9-39164099cc03",
+        "service.name": "unknown_service"
+      },
+      "scope": {
+        "name": "langfuse-sdk",
+        "version": "3.2.1",
+        "attributes": {
+          "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+        }
+      }
+    },
+    "latency": 1.804,
+    "timestamp": "2026-08-11 07:51:00.538000+00:00"
+  }
+]

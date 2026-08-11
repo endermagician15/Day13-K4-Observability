@@ -1,0 +1,101 @@
+{
+  "id": "2fb7baec439f129348242f4e391495b1",
+  "timestamp": "2026-08-11 08:34:50.793000+00:00",
+  "name": "",
+  "metadata": {},
+  "tags": [],
+  "public": false,
+  "environment": "default",
+  "htmlPath": "/project/cmsocubpa01okad0imtxk9f7m/traces/2fb7baec439f129348242f4e391495b1",
+  "latency": 0.0,
+  "totalCost": 0.0,
+  "observations": [
+    {
+      "id": "76bf2ddeb703115f",
+      "traceId": "2fb7baec439f129348242f4e391495b1",
+      "type": "SPAN",
+      "name": "rag_retrieval",
+      "startTime": "2026-08-11 08:34:50.793000+00:00",
+      "endTime": "2026-08-11 08:34:50.793000+00:00",
+      "completionStartTime": null,
+      "model": null,
+      "modelParameters": null,
+      "input": {
+        "args": [
+          "What is the refund policy?"
+        ],
+        "kwargs": {}
+      },
+      "version": null,
+      "metadata": {
+        "resourceAttributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "08f03037-e71b-46ab-834c-85fcda6d58b8",
+          "service.name": "unknown_service"
+        },
+        "scope": {
+          "name": "langfuse-sdk",
+          "version": "3.2.1",
+          "attributes": {
+            "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+          }
+        }
+      },
+      "output": [
+        "Refunds are available within 7 days with proof of purchase."
+      ],
+      "usage": {
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "unit": "TOKENS"
+      },
+      "level": "DEFAULT",
+      "statusMessage": null,
+      "parentObservationId": "1b546efcce72586a",
+      "promptId": null,
+      "usageDetails": {},
+      "costDetails": {},
+      "environment": "default",
+      "promptName": null,
+      "promptVersion": null,
+      "modelId": null,
+      "inputPrice": 0.0,
+      "outputPrice": 0.0,
+      "totalPrice": 0.0,
+      "calculatedInputCost": null,
+      "calculatedOutputCost": null,
+      "calculatedTotalCost": 0.0,
+      "latency": 0.0,
+      "timeToFirstToken": null,
+      "totalTokens": 0,
+      "completionTokens": 0,
+      "usagePricingTierName": null,
+      "projectId": "cmsocubpa01okad0imtxk9f7m",
+      "updatedAt": "2026-08-11T08:34:53.507Z",
+      "createdAt": "2026-08-11T08:34:53.503Z",
+      "usagePricingTierId": null,
+      "unit": "TOKENS",
+      "promptTokens": 0
+    }
+  ],
+  "scores": [],
+  "_deprecation": {
+    "message": "Langfuse v3 is deprecated; this endpoint will be removed in a future release. In Langfuse v4, read span and trace data via GET /api/public/v2/observations?fromStartTime=<from>&toStartTime=<to>.",
+    "replacement": "GET /api/public/v2/observations?fromStartTime=<from>&toStartTime=<to>",
+    "docsUrl": "https://langfuse.com/docs/api-and-data-platform/features/observations-api"
+  },
+  "projectId": "cmsocubpa01okad0imtxk9f7m",
+  "updatedAt": "2026-08-11T08:34:53.608Z",
+  "createdAt": "2026-08-11T08:34:54.000Z",
+  "bookmarked": false,
+  "input": null,
+  "output": null,
+  "sessionId": null,
+  "release": null,
+  "version": null,
+  "userId": null,
+  "externalId": null
+}

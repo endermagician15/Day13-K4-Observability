@@ -1,0 +1,55 @@
+{
+  "id": "a4c0545bcbf2139c339c845e2c48969a",
+  "timestamp": "2026-08-11 08:34:48.268000+00:00",
+  "name": "run",
+  "sessionId": "session-prod-v2",
+  "userId": "fc4c86f7b11c",
+  "metadata": {
+    "prompt_name": "day13-chat",
+    "prompt_label": "production",
+    "prompt_version": 2,
+    "prompt_source": "langfuse",
+    "doc_count": 1,
+    "query_preview": "What is the refund policy?",
+    "resourceAttributes": {
+      "telemetry.sdk.language": "python",
+      "telemetry.sdk.name": "opentelemetry",
+      "telemetry.sdk.version": "1.44.0",
+      "service.instance.id": "08f03037-e71b-46ab-834c-85fcda6d58b8",
+      "service.name": "unknown_service"
+    },
+    "scope": {
+      "name": "langfuse-sdk",
+      "version": "3.2.1",
+      "attributes": {
+        "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+      }
+    }
+  },
+  "tags": [
+    "claude-sonnet-4-5",
+    "lab",
+    "qa"
+  ],
+  "public": false,
+  "environment": "default",
+  "htmlPath": "/project/cmsocubpa01okad0imtxk9f7m/traces/a4c0545bcbf2139c339c845e2c48969a",
+  "latency": 0.0,
+  "totalCost": 0.0,
+  "observations": [],
+  "scores": [],
+  "_deprecation": {
+    "message": "Langfuse v3 is deprecated; this endpoint will be removed in a future release. In Langfuse v4, read span and trace data via GET /api/public/v2/observations?fromStartTime=<from>&toStartTime=<to>.",
+    "replacement": "GET /api/public/v2/observations?fromStartTime=<from>&toStartTime=<to>",
+    "docsUrl": "https://langfuse.com/docs/api-and-data-platform/features/observations-api"
+  },
+  "projectId": "cmsocubpa01okad0imtxk9f7m",
+  "updatedAt": "2026-08-11T08:34:52.508Z",
+  "createdAt": "2026-08-11T08:34:52.000Z",
+  "bookmarked": false,
+  "input": null,
+  "output": null,
+  "release": null,
+  "version": null,
+  "externalId": null
+}

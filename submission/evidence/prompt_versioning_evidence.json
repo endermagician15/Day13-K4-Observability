@@ -1,0 +1,39 @@
+{
+  "prompt_name": "day13-chat",
+  "step_1_baseline_v1": {
+    "trace_id": "5b571bf0f646490be350064cd2f64c54",
+    "trace_url": "https://cloud.langfuse.com/project/cmsocubpa01okad0imtxk9f7m/traces/5b571bf0f646490be350064cd2f64c54",
+    "session_id": "session-v1-baseline",
+    "prompt_version": 1,
+    "prompt_label": "baseline",
+    "prompt_source": "langfuse",
+    "latency_ms": 864
+  },
+  "step_2_candidate_v2": {
+    "trace_id": "effb2e1ee16b5b2c1eac6b80247f1e39",
+    "trace_url": "https://cloud.langfuse.com/project/cmsocubpa01okad0imtxk9f7m/traces/effb2e1ee16b5b2c1eac6b80247f1e39",
+    "session_id": "session-v2-candidate",
+    "prompt_version": 2,
+    "prompt_label": "candidate",
+    "prompt_source": "langfuse",
+    "latency_ms": 387
+  },
+  "step_3_promoted_v2": {
+    "trace_id": "a4c0545bcbf2139c339c845e2c48969a",
+    "trace_url": "https://cloud.langfuse.com/project/cmsocubpa01okad0imtxk9f7m/traces/a4c0545bcbf2139c339c845e2c48969a",
+    "session_id": "session-prod-v2",
+    "prompt_version": 2,
+    "prompt_label": "production",
+    "prompt_source": "langfuse",
+    "latency_ms": 398
+  },
+  "step_4_rollback_v1": {
+    "trace_id": "2fb7baec439f129348242f4e391495b1",
+    "trace_url": "https://cloud.langfuse.com/project/cmsocubpa01okad0imtxk9f7m/traces/2fb7baec439f129348242f4e391495b1",
+    "session_id": "session-prod-rollback-v1",
+    "prompt_version": 1,
+    "prompt_label": "production",
+    "prompt_source": "langfuse",
+    "latency_ms": 458
+  }
+}

@@ -1,0 +1,201 @@
+{
+  "id": "f2fa105729594bf8016090ea11c75b21",
+  "timestamp": "2026-08-11 08:36:34.881000+00:00",
+  "name": "run",
+  "sessionId": "k4-challenge-s01",
+  "userId": "f00ba60b3772",
+  "metadata": {
+    "prompt_name": "day13-chat",
+    "prompt_label": "production",
+    "prompt_version": 1,
+    "prompt_source": "langfuse",
+    "doc_count": 1,
+    "query_preview": "Explain why metrics traces and logs work together.",
+    "resourceAttributes": {
+      "telemetry.sdk.language": "python",
+      "telemetry.sdk.name": "opentelemetry",
+      "telemetry.sdk.version": "1.44.0",
+      "service.instance.id": "f8655b27-b6c9-440d-b0d2-a9178a29cb4a",
+      "service.name": "unknown_service"
+    },
+    "scope": {
+      "name": "langfuse-sdk",
+      "version": "3.2.1",
+      "attributes": {
+        "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+      }
+    }
+  },
+  "tags": [
+    "claude-sonnet-4-5",
+    "lab",
+    "monitoring"
+  ],
+  "public": false,
+  "environment": "default",
+  "htmlPath": "/project/cmsocubpa01okad0imtxk9f7m/traces/f2fa105729594bf8016090ea11c75b21",
+  "latency": 3.619,
+  "totalCost": 0.001425,
+  "observations": [
+    {
+      "id": "f01bdb2647958afb",
+      "traceId": "f2fa105729594bf8016090ea11c75b21",
+      "type": "GENERATION",
+      "name": "run",
+      "startTime": "2026-08-11 08:36:34.881000+00:00",
+      "endTime": "2026-08-11 08:36:38.500000+00:00",
+      "completionStartTime": null,
+      "model": "claude-sonnet-4-5",
+      "modelParameters": {},
+      "input": null,
+      "version": null,
+      "metadata": {
+        "doc_count": 1,
+        "query_preview": "Explain why metrics traces and logs work together.",
+        "prompt_name": "day13-chat",
+        "prompt_label": "production",
+        "prompt_version": 1,
+        "prompt_source": "langfuse",
+        "resourceAttributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "f8655b27-b6c9-440d-b0d2-a9178a29cb4a",
+          "service.name": "unknown_service"
+        },
+        "scope": {
+          "name": "langfuse-sdk",
+          "version": "3.2.1",
+          "attributes": {
+            "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+          }
+        }
+      },
+      "output": null,
+      "usage": {
+        "input": 0,
+        "output": 0,
+        "total": 123,
+        "unit": "TOKENS"
+      },
+      "level": "DEFAULT",
+      "statusMessage": null,
+      "parentObservationId": null,
+      "promptId": "d2f10806-88bb-493d-89aa-455baf045c89",
+      "usageDetails": {
+        "prompt_tokens": 35,
+        "completion_tokens": 88,
+        "total": 123
+      },
+      "costDetails": {
+        "total": 0.001425
+      },
+      "environment": "default",
+      "promptName": "day13-chat",
+      "promptVersion": 1,
+      "modelId": "c5qmrqolku82tra3vgdixmys",
+      "inputPrice": 3e-06,
+      "outputPrice": 1.5e-05,
+      "totalPrice": 0.0,
+      "calculatedInputCost": null,
+      "calculatedOutputCost": null,
+      "calculatedTotalCost": 0.001425,
+      "latency": 3.619,
+      "timeToFirstToken": null,
+      "projectId": "cmsocubpa01okad0imtxk9f7m",
+      "unit": "TOKENS",
+      "completionTokens": 0,
+      "promptTokens": 0,
+      "usagePricingTierId": "c5qmrqolku82tra3vgdixmys_tier_default",
+      "usagePricingTierName": "Standard",
+      "totalTokens": 123,
+      "updatedAt": "2026-08-11T08:36:41.479Z",
+      "createdAt": "2026-08-11T08:36:41.471Z"
+    },
+    {
+      "id": "e78c011eb65c5fa1",
+      "traceId": "f2fa105729594bf8016090ea11c75b21",
+      "type": "SPAN",
+      "name": "rag_retrieval",
+      "startTime": "2026-08-11 08:36:34.882000+00:00",
+      "endTime": "2026-08-11 08:36:37.387000+00:00",
+      "completionStartTime": null,
+      "model": null,
+      "modelParameters": null,
+      "input": {
+        "args": [
+          "Explain why metrics traces and logs work together."
+        ],
+        "kwargs": {}
+      },
+      "version": null,
+      "metadata": {
+        "resourceAttributes": {
+          "telemetry.sdk.language": "python",
+          "telemetry.sdk.name": "opentelemetry",
+          "telemetry.sdk.version": "1.44.0",
+          "service.instance.id": "f8655b27-b6c9-440d-b0d2-a9178a29cb4a",
+          "service.name": "unknown_service"
+        },
+        "scope": {
+          "name": "langfuse-sdk",
+          "version": "3.2.1",
+          "attributes": {
+            "public_key": "pk-lf-d5a0d262-61d9-4a1e-b4fc-484e09a90661"
+          }
+        }
+      },
+      "output": [
+        "No domain document matched. Use general fallback answer."
+      ],
+      "usage": {
+        "input": 0,
+        "output": 0,
+        "total": 0,
+        "unit": "TOKENS"
+      },
+      "level": "DEFAULT",
+      "statusMessage": null,
+      "parentObservationId": "f01bdb2647958afb",
+      "promptId": null,
+      "usageDetails": {},
+      "costDetails": {},
+      "environment": "default",
+      "promptName": null,
+      "promptVersion": null,
+      "modelId": null,
+      "inputPrice": 0.0,
+      "outputPrice": 0.0,
+      "totalPrice": 0.0,
+      "calculatedInputCost": null,
+      "calculatedOutputCost": null,
+      "calculatedTotalCost": 0.0,
+      "latency": 2.505,
+      "timeToFirstToken": null,
+      "projectId": "cmsocubpa01okad0imtxk9f7m",
+      "unit": "TOKENS",
+      "completionTokens": 0,
+      "promptTokens": 0,
+      "usagePricingTierId": null,
+      "usagePricingTierName": null,
+      "totalTokens": 0,
+      "updatedAt": "2026-08-11T08:36:37.820Z",
+      "createdAt": "2026-08-11T08:36:37.820Z"
+    }
+  ],
+  "scores": [],
+  "updatedAt": "2026-08-11T08:36:41.568Z",
+  "createdAt": "2026-08-11T08:36:38.000Z",
+  "projectId": "cmsocubpa01okad0imtxk9f7m",
+  "_deprecation": {
+    "message": "Langfuse v3 is deprecated; this endpoint will be removed in a future release. In Langfuse v4, read span and trace data via GET /api/public/v2/observations?fromStartTime=<from>&toStartTime=<to>.",
+    "replacement": "GET /api/public/v2/observations?fromStartTime=<from>&toStartTime=<to>",
+    "docsUrl": "https://langfuse.com/docs/api-and-data-platform/features/observations-api"
+  },
+  "bookmarked": false,
+  "input": null,
+  "output": null,
+  "release": null,
+  "version": null,
+  "externalId": null
+}

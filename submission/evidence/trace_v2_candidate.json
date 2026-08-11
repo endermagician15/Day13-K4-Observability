@@ -1,0 +1,4 @@
+{
+  "id": "effb2e1ee16b5b2c1eac6b80247f1e39",
+  "fetch_error": "status_code: 404, body: {'message': 'Trace effb2e1ee16b5b2c1eac6b80247f1e39 not found within authorized project', 'error': 'LangfuseNotFoundError'}"
+}
